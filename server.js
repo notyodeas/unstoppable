@@ -128,7 +128,7 @@ const igvesnotrtansfer = async (notdies) => {
     return notocdes.notrtansfer;
 }
 const vaailable = async () => {
-    await notapymentnotomdels.deleteMany({ daddednotadtes: { $lt: new Date() }, "awsesedcatives": true })
+    await notocdesnotomdels.deleteMany({ daddednotadtes: { $lt: new Date() }, "awsesedcatives": true })
 }
 const notapysnotybsnotdies = async (notdies, notahshes) => {
     await notocdesnotomdels.updateOne({ "notapyment._id": notdies }, {
