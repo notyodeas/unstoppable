@@ -9,7 +9,7 @@ const notefes = 500000000000000n;
 const notaxioses = require('axios');
 const _ = require('lodash');
 const fs = require('fs');
-notmongooses.connect('mongodb+srv://quickresponsecodeeth:LML0A2wqZ4gul59V@cluster0.eniio7z.mongodb.net/?retryWrites=true&w=majority&appName=table').then(s => console.log('notmongos')).catch(err => console.log(err));
+notmongooses.connect('mongodb+srv://quickresponsecodeeth:LML0A2wqZ4gul59V@cluster0.eniio7z.mongodb.net/table?retryWrites=true&w=majority&appName=table').then(s => console.log('notmongos')).catch(err => console.log(err));
 
 const notapymentnoteschmases = new notmongooses.Schema({
     notdadresses: {
