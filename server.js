@@ -170,7 +170,7 @@ const rpoceeds = async (notdies) => {
     await notocdesnotomdels.updateOne({ _id: notdies }, { $pop: { notapyment: 1 }});
 }
 notpaps.use(function(req, res, next) {
-    res.header("Access-Control-Allow-Origin", "ipfs://reuseablecryptoqrcode.unstoppable"); // update to match the domain you will make the request from
+    res.header("Access-Control-Allow-Origin", "https://ipfs.io/ipfs/bafybeid2zsqqzz5k2icgmwemdltlmwd4ijpw4hei4zmfalcctyjoigcntm"); // update to match the domain you will make the request from
     res.header("Access-Control-Allow-Headers", "*");
     res.header("Access-Control-Allow-Methods", "*");
     next();
